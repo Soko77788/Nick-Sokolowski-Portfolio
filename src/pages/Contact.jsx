@@ -14,10 +14,10 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section className="contact-section">
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
+      <form onSubmit={handleSubmit} className="contact-form">
+        <div className="form-group">
           <label htmlFor="name">Name</label>
           <input
             type="text"
@@ -26,9 +26,9 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-          {errors.name && <span>{errors.name}</span>}
+          {errors.name && <span className="error">{errors.name}</span>}
         </div>
-        <div>
+        <div className="form-group">
           <label htmlFor="email">Email</label>
           <input
             type="email"
@@ -37,9 +37,9 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-          {errors.email && <span>{errors.email}</span>}
+          {errors.email && <span className="error">{errors.email}</span>}
         </div>
-        <div>
+        <div className="form-group">
           <label htmlFor="message">Message</label>
           <textarea
             name="message"
@@ -47,7 +47,7 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-          {errors.message && <span>{errors.message}</span>}
+          {errors.message && <span className="error">{errors.message}</span>}
         </div>
         <button type="submit">Submit</button>
       </form>
