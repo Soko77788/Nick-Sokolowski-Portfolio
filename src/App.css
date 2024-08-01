@@ -80,6 +80,51 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
+/*Projects*/
+
+/* Styles for the Portfolio section */
+.portfolio {
+  padding: 20px;
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* Space between grid items */
+}
+
+/* Styles for individual project items */
+.project {
+  background-color: #0A5F29;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Image styling within project items */
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Links within project items */
+.project a {
+  display: block;
+  color: #FFF;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+
 
 /*Contact Form*/
 
