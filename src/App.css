@@ -100,7 +100,6 @@ nav a:hover {
   color: white;
   text-align: center;
   padding: 10px;
- 
 }
 
 /* Styling for the card body */
@@ -109,7 +108,6 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 /* Styling for the card image */
@@ -122,36 +120,44 @@ nav a:hover {
 /* Styling for the card footer */
 .card-footer {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
   background-color: #0A5F29;
- 
+  border-top: 1px solid #ddd;
 }
 
 /* Styling for the buttons */
 .btn {
   color: white;
   background-color: #0A5F29;
-  padding: 5px 10px;
   border: none;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary {
   background-color: #007bff;
+  flex: 3;
 }
 
 .btn-secondary {
   background-color: #6c757d;
+  flex: 1;
 }
+
+/* Styling for the icon */
+.btn .react-icons {
+  margin-right: 5px;
+}
+
 
 /* Links within project items */
 .project-card a {
   display: block;
   color: #FFF;
-  margin-top: 10px;
   text-decoration: none;
 }
 

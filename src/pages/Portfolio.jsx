@@ -3,39 +3,39 @@ import Project from '../components/Project';
 
 const projects = [
   {
-    title: 'Project 1',
+    title: 'Holidb Full Stack Web',
     image: './src/assets/Holidb.png',
     deployedLink: 'https://holidb.onrender.com/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
-    title: 'Project 2',
+    title: 'Radlibs Front-end',
     image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    deployedLink: 'https://mmhilbert.github.io/madlibs-project/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
-    title: 'Project 3',
+    title: 'Weather App Front-end',
     image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    deployedLink: 'https://soko77788.github.io/weather-dashboard-hw-6/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
-    title: 'Project 4',
+    title: 'Express Note Taker',
     image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    deployedLink: 'https://hw-11-express-note-taker.onrender.com/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
-    title: 'Project 5',
+    title: 'MVC Bloggin It!',
     image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    deployedLink: 'https://hw-14-mvc-blog-site.onrender.com/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
-    title: 'Project 6',
+    title: 'Back-end SVG Logo Generator',
     image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    deployedLink: 'https://drive.google.com/file/d/1bZEXALI_VwKr0tdS8m--rI7wYhV9Mmkj/view?pli=1',
     repoLink: 'https://github.com/your-github/project1'
   },
   // Add more projects here
