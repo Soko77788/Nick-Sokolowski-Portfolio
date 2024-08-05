@@ -4,8 +4,8 @@ import Project from '../components/Project';
 const projects = [
   {
     title: 'Project 1',
-    image: '/path/to/project1.png',
-    deployedLink: 'https://project1.com',
+    image: './src/assets/Holidb.png',
+    deployedLink: 'https://holidb.onrender.com/',
     repoLink: 'https://github.com/your-github/project1'
   },
   {
@@ -45,7 +45,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio">
       <h2>Portfolio</h2>
-      <div className="grid-container">
+      <div className="project-grid">
         {projects.map((project, index) => (
           <Project key={index} {...project} />
         ))}

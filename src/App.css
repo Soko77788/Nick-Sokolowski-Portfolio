@@ -83,37 +83,72 @@ nav a:hover {
 /*Projects*/
 
 /* Styles for the Portfolio section */
-.portfolio {
-  padding: 20px;
-}
-
-/* Grid container */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 20px; /* Space between grid items */
-}
-
-/* Styles for individual project items */
-.project {
-  background-color: #0A5F29;
-  border: 2px solid white;
+.project-card {
+  border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  color: white;
+  overflow: hidden;
+  width: 300px; /* Adjust the width as needed */
+  margin: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Image styling within project items */
-.project img {
+/* Styling for the card header */
+.card-header {
+  background-color: #0A5F29;
+  color: white;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+/* Styling for the card body */
+.card-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Styling for the card image */
+.card-img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+/* Styling for the card footer */
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #0A5F29;
+ 
+}
+
+/* Styling for the buttons */
+.btn {
+  color: white;
+  background-color: #0A5F29;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
 }
 
 /* Links within project items */
-.project a {
+.project-card a {
   display: block;
   color: #FFF;
   margin-top: 10px;
@@ -122,6 +157,23 @@ nav a:hover {
 
 .project a:hover {
   text-decoration: underline;
+}
+
+/* Styling for the portfolio section */
+.portfolio {
+  padding: 20px;
+}
+
+.portfolio h2 {
+  text-align: center;
+}
+
+/* Flexbox grid for arranging projects */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 
