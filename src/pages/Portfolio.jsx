@@ -44,7 +44,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className="portfolio-title">Portfolio</h2>
       <div className="project-grid">
         {projects.map((project, index) => (
           <Project key={index} {...project} />

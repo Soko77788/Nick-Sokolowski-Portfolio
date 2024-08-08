@@ -17,25 +17,28 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #0A5F29; /* Background color */
-  padding: 20px;
+  background-color: #8C6B11; /* Background color */
+  padding: 0px;
   text-align: center;
   z-index: 1000;
   width: 100%;
   border: 2px solid white; /* White border */
-  border-radius: 10px; /* Rounded corners */
+  border-left: none;
+  border-right: none;
+  border-bottom: 20px solid white;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for better visual separation */
 }
 
 header h1 {
   margin: 0;
-  padding: 10px 0;
+ font-size: 100px;
   color: white;
 }
 
 nav {
   display: flex;
-  justify-content: space-between; /* Or space-around, depending on your preference */
+  justify-content: space-between; 
   font-size: 40px;
   width: 100%;
   max-width: 800px; /* Adjust as needed */
@@ -45,7 +48,7 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 20px;
+  
 }
 
 nav a:hover {
@@ -82,17 +85,21 @@ nav a:hover {
 
 /*Projects*/
 
+.portfolio-title {
+  font-size: 75px;
+}
+
 /* Styles for the Portfolio section */
 .project-card {
   border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
-  width: 300px; /* Adjust the width as needed */
+  width: 370px; /* Adjust the width as needed */
   margin: 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 400px;
 }
 
 /* Styling for the card header */
@@ -105,12 +112,18 @@ nav a:hover {
   width: 100%;
 }
 
+.card-header h3 {
+  font-size: 30px;
+}
+
 /* Styling for the card body */
 .card-body {
   width: 100%;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 /* Styling for the card image */
@@ -124,13 +137,17 @@ nav a:hover {
 .card-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #0A5F29;
   border-top: 1px solid #ddd;
+  height: 50px;
+  flex-shrink: 0;
 }
 
 /* Styling for the buttons */
 .btn {
   color: white;
+  font-size: 25px;
   background-color: #0A5F29;
   border: none;
   border-radius: 5px;
@@ -139,6 +156,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .btn-primary {
@@ -170,7 +188,8 @@ nav a:hover {
 
 /* Styling for the portfolio section */
 .portfolio {
-  padding: 20px;
+  
+  background-color: #8C6B11
 }
 
 .portfolio h2 {
@@ -255,13 +274,14 @@ nav a:hover {
 /*Footer Styles*/
 
 .footer {
-  background-color: #0A5F29;
+  background-color: #8C6B11;
   border: 2px solid white;
-  border-radius: 10px;
-  padding: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: 20px solid white;
+
   text-align: center;
   color: white;
-  margin: 20px auto;
   max-width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
