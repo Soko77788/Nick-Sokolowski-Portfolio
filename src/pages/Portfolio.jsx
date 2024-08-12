@@ -41,6 +41,8 @@ const projects = [
   // Add more projects here
 ];
 
+// Map over each project
+
 const Portfolio = () => {
   return (
     <section className="portfolio">

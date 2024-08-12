@@ -4,6 +4,7 @@
   height: 100%;
   background-color: black;
   color: white;
+  font-family: futura;
 }
 
  body { 
@@ -354,5 +355,25 @@ nav a:hover {
 .footer a:hover {
   color: #ccc;
 }
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+nav.active {
+  display: flex;
+}
+
+
+
 
 
