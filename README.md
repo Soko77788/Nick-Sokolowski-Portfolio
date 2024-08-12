@@ -19,6 +19,8 @@
 
 
   * The app is up and running on Netlify at 
+
+  https://nick-sokolowski-portfolio.netlify.app/
   
   
   ## Usage
@@ -52,4 +54,5 @@ This project is unlicensed.
 
   ## Deployed App
 
+https://nick-sokolowski-portfolio.netlify.app/
   
