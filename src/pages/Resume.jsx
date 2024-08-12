@@ -7,7 +7,7 @@ const Resume = () => {
       <h2 className="resume-title">Resume</h2>
       <div className="resume-download">
         <a href="/NS-resume-coding.pdf" download>
-          <img src="./src/assets/resumeIcon.png" alt="Download Resume" className="download-icon" />
+          <img src="/assets/resumeIcon.png" alt="Download Resume" className="download-icon" />
         </a>
         <p className="download-text">Download Resume</p>
       </div>
