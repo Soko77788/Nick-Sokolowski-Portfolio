@@ -3,6 +3,12 @@ import Project from '../components/Project';
 
 const projects = [
   {
+    title: 'Quester MERN Stack',
+    image: '/assets/quester-portfolio-screenshot.png',
+    deployedLink: 'https://quester-407s.onrender.com/',
+    repoLink: 'https://github.com/AranosBanazir/Quester'
+  },
+  {
     title: 'Holidb Full Stack App',
     image: '/assets/Holidb.png',
     deployedLink: 'https://holidb.onrender.com/',

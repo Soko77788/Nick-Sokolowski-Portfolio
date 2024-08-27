@@ -6,9 +6,9 @@ const AboutMe = () => {
       <h2>About Me</h2>
       <img src="/assets/selfie.jpg" alt="Developer" className="about-me-photo" />
       <p>
-        My name is Nick Sokolowski and I'm a full stack developer from Wisconsin. I'm 35 years old and married. My interests include fitness, sports, and
-        nerd culture such as gaming and anime. As a developer I'm hoping to work on an application in one of these spaces one day! Looking to settle into a career that is constantly evolving and I can master as I
-        age!
+      My name is Nick Sokolowski and I am a full stack developer living in Wisconsin.  As a developer, my ultimate goal is to work on applications in the nerd culture space, such as gaming or anime, or in fitness or sports.  I am looking forward to growing in a career that is constantly evolving, and that I can master with experience. I am loving life in my thirties, and enjoy spending time with my wife, family, and friends, as well as gaming, working out, and watching my favorite sports teams.
+
+ 
       </p>
     </section>
   );
