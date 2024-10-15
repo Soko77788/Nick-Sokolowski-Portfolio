@@ -6,7 +6,7 @@ const Resume = () => {
     <section>
       <h2 className="resume-title">Resume</h2>
       <div className="resume-download">
-        <a href="/NS-resume-coding.pdf" download>
+        <a href="/NS-resume-code.pdf" download>
           <img src="/assets/resumeIcon.png" alt="Download Resume" className="download-icon" />
         </a>
         <p className="download-text">Download Resume</p>
@@ -15,7 +15,7 @@ const Resume = () => {
       <ul className="li-style">
         <li><strong>Frontend Development:</strong> HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS</li>
         <li><strong>Backend Development:</strong> Node.js, Express.js, MongoDB, Postgres SQL, Sequelize, RESTful APIs</li>
-        <li><strong>Tools and Technologies:</strong> Git, GitHub, Webpack, Vite, NPM, Jest, Insomnia, MongoDB Compass</li>
+        <li><strong>Tools and Technologies:</strong> Git, GitHub, Webpack, Vite, NPM, Jest, Vitest, Insomnia, MongoDB Compass, Azure</li>
       </ul>
     </section>
   );
